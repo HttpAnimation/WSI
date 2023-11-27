@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WSI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="/logo/logo.png" alt="WSI Logo">
+    </header>
+
+    <main>
+        <section id="section1">
+            <h2>About</h2>
+            <p>WSI is a website to show how file exetenstion work and how to use them. This webiste is a free forever and will always be free for personal use.</p>
+        </section>
+    </main>
+
+    <script>
+        // Use fetch to load the content of sidebar.html
+        fetch('Sidebar.html')
+            .then(response => response.text())
+            .then(html => {
+                // Insert the loaded content into the document
+                document.body.insertAdjacentHTML('beforeend', html);
+            })
+            .catch(error => console.error('Error loading sidebar:', error));
+    </script>
+</body>
+</html>

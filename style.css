@@ -1,0 +1,27 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+    width: 100%;
+    z-index: 0;
+}
