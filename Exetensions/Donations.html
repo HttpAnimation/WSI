@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WSI</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <img src="/logo/logo.png" alt="WSI Logo">
+    </header>
+
+    <main>
+        <section id="section1">
+            <h2>About</h2>
+            <p>WSI is a website to show how file exetenstion work and how to use them. This webiste is a free forever and will always be free for personal use.</p>
+        </section>
+
+        <section id="srction2">
+            <h2>Donations</h2>
+            <p>XMR: <br>4Ah4JgyvAXtJ2a5wgGUS3bBeXPMciJo62NMwZ7cY11xF3ok9tfwvhoF2hE8hiSmfdf1yGDpFD8NrcVEk5iFsonWcBCcRdAh</p>
+            <p>Cashapp: <br>$HttpAnimations</p>
+            <p>ETC: <br>0x85e045778Cac44fa0ba2cE88C1D1B8464Be83fAf</p>
+            <p>BTC: <br>bc1qfq57dqfkawnwdvdczcyx20gqzqre8q2jhcq2qv</p>
+        </section>
+    </main>
+
+    <script>
+        // Use fetch to load the content of sidebar.html
+        fetch('../Sidebar.html')
+            .then(response => response.text())
+            .then(html => {
+                // Insert the loaded content into the document
+                document.body.insertAdjacentHTML('beforeend', html);
+            })
+            .catch(error => console.error('Error loading sidebar:', error));
+    </script>
+</body>
+</html>
