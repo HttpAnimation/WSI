@@ -17,5 +17,8 @@ The live github ran page can be found [here](https://httpanimation.github.io/WSI
 .js
 ```
 
-### Python3
+## Bash
+If you would like to run this website for you're self you will use the bash script note that this script will only work on Linux and MacOS and will nerver work on Windows as the script is unix based. For the commands for this [head here](Runners/Bash.md).
+
+## Python3
 If you would like to run this website locally with python3 this is the guide for that note that Windows is not tested and will most likely fail running this script. For the commands for this [head here](Runners/Python3.md).
