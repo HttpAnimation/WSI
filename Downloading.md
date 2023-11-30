@@ -6,7 +6,7 @@ To download this webiste run these commands.
 ```
 git --version
 ```
-3) Clone the repo
+3) Clone the repo and enter it
 ```
-https://github.com/HttpAnimation/WSI.git
+https://github.com/HttpAnimation/WSI.git && cd WSI
 ```
